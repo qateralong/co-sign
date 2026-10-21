@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "cosign",
+  "version": "${version}",
+  "name": "Co-Sign",
+  "description": "Server-side: turn a book and quill into a document many players sign, then seal it into a normal signed book.",
+  "authors": [
+    "qateralong"
+  ],
+  "license": "All Rights Reserved",
+  "icon": "assets/cosign/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.qateralong.cosign.CoSign"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
